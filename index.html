@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Powder Stash</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Powder Stash</h1>
+    <div class="input-container">
+      <div class="end">
+        <!-- <label for="">Resort</label> -->
+        <input class="auto" type="text" id="dest-autocomplete">
+      </div>
+    </div>
+    <!-- <nav>
+      <ul>
+        <li>Search by Mountain</li>
+        <input type="text">
+        <li></li>
+      </ul>
+    </nav> -->
+  </header>
+  <main class="mainContainer">
+    <div id="weatherInfo">
+      <ul class="weatherInfo">
+        <li>
+          <p>Location:</p>
+          <p class="location"></p>
+        </li>
+        <li>
+          <p>Current Weather:</p>
+          <p class="desc"></p>
+        </li>
+        <li>
+          <p>Temperature:</p>
+          <p class="temp"></p>
+        </li>
+        <li>
+          <p>Feels Like:</p>
+          <p class="feel"></p>
+        </li>
+        <li>
+          <p>Wind Speed:</p>
+          <p class="wind"></p>
+        </li>
+        <li>
+          <p>Humidity:</p>
+          <p class="humidity"></p>
+        </li>
+      </ul>
+
+    </div>
+    <div id="map">
+
+    </div>
+  </main>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxaq2W71CRA-04wjLQMIQpSdCG6unswpQ&libraries=places&callback=initMap">
+  </script>
+  <script src="app.js"></script>
+</body>
+
+</html>
